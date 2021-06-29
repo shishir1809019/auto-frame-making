@@ -58,7 +58,7 @@ for i in data:
     # image = image.convert('RGB')
 
     #save or show the final image
-    image.save("{0}.png".format(i['Name']), format="png")
+    image.save("{0}.png".format(i['Student ID']), format="png")
     # image.show()
   
 # Closing file
